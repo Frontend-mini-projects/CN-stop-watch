@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch </title>
+
+  
+
+
+    <!-- Link Google fonts     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- Link custom css and js -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  
+
+    <!-- body items -->
+    <section class="FlexContainer">
+
+        <div class="box1 ">
+
+            <!-- count time notations -->
+            <div id="number" class="stopwatchfontdesign">
+                <span id="hour">00</span> :
+                <span id="mint">00</span> :
+                <span id="sec">00</span> 
+            </div>
+
+            <!--  all buttons -->
+            <div class="buttons">
+
+                <!-- start button -->
+                <button id="start" onclick="start();">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front text"> START
+                    </span>
+                </button>
+
+
+
+                <!-- stop button -->
+                <button id="stop" onclick="stoptimer();" >
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front text">PAUSE
+                    </span>
+                </button>
+
+                <!-- reset button -->
+                <button id="reset" onclick="resettimer();">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front text"> RESET
+                    </span>
+                </button>
+
+              
+            </div>
+        </div>
+   
+    <!-- link js file -->
+    <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
+
+  
