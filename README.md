@@ -20,4 +20,5 @@ A watch which can be started and stopped by pressing a button, so that you can m
 - Web Browser
 
 
-
+## Image Preview - 
+![image](https://user-images.githubusercontent.com/63789702/194168071-4d76ec77-0cff-4074-ad83-61d08b4dcf47.png)
